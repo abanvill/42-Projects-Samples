@@ -1,0 +1,3 @@
+[submodule "libs/42-libft"]
+	path = libs/42-libft
+	url = https://github.com/abanvill/42-libft.git

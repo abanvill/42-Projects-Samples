@@ -2,7 +2,7 @@
 
 ## Description
 
-This project purpose is to realize a dating site who will be an introduction of an evolved tool to realize a web application: the micro-framework. 
+The purpose of this project is to realize a dating site who will be an introduction of an evolved tool to realize a web application: the micro-framework. 
 
 ## Objectives
 
