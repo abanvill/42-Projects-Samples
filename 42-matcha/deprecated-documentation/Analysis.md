@@ -1,0 +1,210 @@
+# 42-matcha - Overview
+
+A Tinder-like web application.
+
+## Required specifications
+
+- Compatibilty
+	- Firefox (V. 41+)
+	- Chrome (V. 46+)
+- UX/UI
+	- Header
+	- Main section
+	- Footer
+- Responsive on mobile resolutions (low to high)
+- Security
+	- Encrypted passwords
+	- XSS injections free
+	- Upload content validation
+	- SQL injections
+
+## Required functionnalities
+
+- User profile
+	- Registering
+		- Mail
+		- Username
+		- First name
+		- Last name
+		- Birth date
+		- Ruled password (Front-end/Back-end)
+	- Login
+		- Username
+		- Password
+	- Reset password
+		- Email
+	- Logout (From anywhere)
+	- Profile edition
+		- Gender
+		- Sexual orientation
+			- If not set, bisexuality is defined by default
+		- Biography
+		- Interests (As tags #love)
+			- Tags must be reusable by all users
+		- Pictures
+			- Limited to 5
+			- One for profile
+	- Monitoring
+		- Peoples who went on profile
+		- Peoples who liked the profile
+	- Famous indice
+	- Geolocalization
+		- Must be editable on profile
+		- Must be precise
+		- Must be done if geolocalisation is disabled
+- Algorithm
+	- Profile suggestion
+		- Sexual orientation
+			- Must be filtered by obvious informations like `gender` or `sexual orientation`
+			- Bisexuality must be correctly handled
+		- Localization
+			- Nearest or same geographic zones
+			- Most interest tags in common
+			- Most `famous indice`
+- Profile list
+	- Sortable by
+		- Age interval
+		- Localization
+		- `Famous indice` interval
+		- Tags
+	- Filterable by
+		- Age interval
+		- Localization
+		- `Famous indice` interval
+		- Tags
+	- Searchable by (**May be separated from the rest**)
+		- Age interval
+		- Localization
+		- `Famous indice` interval
+		- Tags
+- Primary functionnalities
+	- User profiles
+		- Must be consultable
+		- Must be `likable`/`unlikable`
+		- Must contains all informations about the user (Excluding Email/Password)
+			- Cf: **User profile**
+			- Online status must be visible (Online/Offline)
+			- Like status must be visible (Liked/NotLiked)
+		- Online status must be visible (Online/Offline)
+		- Can be reported
+		- Can be blocked
+			- A blocked user cannot generate any notification anymore
+			- A blocked user cannot appear in search results anymore
+	- Messagery
+		- A new private message notification must be viewable from anywhere
+		- Only by self-matched users
+		- Real time chatting (10 seconds lag max)
+	- Notifications (Viewable from anywhere, readed/unread notification visual marker)
+		- User profile liked/unliked
+		- User profile matched with someone
+		- User profile consulted by another user
+		- A new private message received (May be separated from standard notifications)
+
+## Views
+
+- Landing page
+	- Registering
+		- Mail
+		- Username
+		- First name
+		- Last name
+		- Ruled password (Front-end/Back-end)
+	- Login
+		- Username
+		- Password
+	- Reset password
+		- Email
+	- Random user list
+	- Forgotten password (Modal)
+- Profile
+	- Gender
+	- Sexual orientation
+		- If not set, bisexuality is defined by default
+	- Biography
+	- Interests (As tags #love)
+		- Tags must be reusable by all users
+	- Pictures
+		- Limited to 5
+	- Famous indice
+	- Profile consultation
+		- Users profile photo
+		- User names
+	- Statistics
+		- Consultation number
+		- Like number
+	- Geolocation
+	- Online status (Public)
+	- Report action (Public)
+	- Like action (Public)
+	- Block action (Public)
+- Profile edition
+	- Gender
+	- Sexual orientation
+		- If not set, bisexuality is defined by default
+	- Biography
+	- Interests (As tags #love)
+		- Tags must be reusable by all users
+	- Pictures
+		- Limited to 5
+- Account edition
+	- Mail
+	- Username
+	- First name
+	- Last name
+	- Birth date
+	- Ruled password (Front-end/Back-end)
+- User gallery
+	- Sortable by
+		- Age interval
+		- Localization
+		- `Famous indice` interval
+		- Tags
+	- Filterable by
+		- Age interval
+		- Localization
+		- `Famous indice` interval
+		- Tags
+	- Searchable by (**May be separated from the rest**)
+		- Age interval
+		- Localization
+		- `Famous indice` interval
+		- Tags
+- Messagery
+	- Users message list
+
+## Technology
+
+- Package managers
+	- Yarn
+- App Server
+	- NodeJS
+		- Modules
+			- Server
+				- `nodemon`
+				- `morgan`
+			- Back-end
+				- `express`
+				- `express-session`
+				- `body-parser`
+			- Front-end
+				- `babel`
+				- `babel-loader`
+				- `babel-preset-react`
+				- `react`
+				- `react-dom`
+				- `react-router`
+				- `react-router-dom`
+				- `redux`
+				- `webpack`
+- Middlewares
+	- Socket.io
+	- Morgan.js (logging)
+- Database
+	- MongoDB
+- CSS
+	- Bootstrap
+- Fonts
+	- FontAwesome
+- Externals APIs
+	- Google maps
+	- Randomuser.me

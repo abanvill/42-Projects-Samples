@@ -1,0 +1,13 @@
+{
+  "name": "42-matcha-legacy",
+  "version": "0.0.1",
+  "description": "Dating application school project",
+  "scripts": {
+    "back": "cd back-end && yarn install && NODE_ENV=prod nodemon --inspect -L start.js",
+    "front": "cd front-end && yarn install && node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js ."
+  },
+  "repository": "https://github.com/abanvill/42-matcha-legacy.git",
+  "author": "<Anthony Banville>",
+  "email": "abanvill@student.42.fr",
+  "license": "UNLICENCED"
+}
