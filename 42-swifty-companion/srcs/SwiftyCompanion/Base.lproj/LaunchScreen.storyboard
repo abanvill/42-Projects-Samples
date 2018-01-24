@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1108" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GuV-Js-gI3">
+                                <rect key="frame" x="-4" y="0.0" width="328" height="568"/>
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="SplashIcon" translatesAutoresizingMaskIntoConstraints="NO" id="DdV-dP-avj">
+                                        <rect key="frame" x="132" y="252" width="64" height="64"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="64" id="6Ca-lQ-pwp"/>
+                                            <constraint firstAttribute="width" constant="64" id="Gr4-uH-RsL"/>
+                                            <constraint firstAttribute="width" secondItem="DdV-dP-avj" secondAttribute="height" multiplier="1:1" id="dPk-hI-jfJ"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.12941176470588234" green="0.12941176470588234" blue="0.12941176470588234" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="DdV-dP-avj" firstAttribute="centerX" secondItem="GuV-Js-gI3" secondAttribute="centerX" id="996-2J-Usc"/>
+                                    <constraint firstItem="DdV-dP-avj" firstAttribute="centerY" secondItem="GuV-Js-gI3" secondAttribute="centerY" id="b88-Pb-DTv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="GuV-Js-gI3" secondAttribute="trailing" constant="-20" id="Azv-WS-Xid"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="GuV-Js-gI3" secondAttribute="bottom" id="GkS-j4-SSk"/>
+                            <constraint firstItem="GuV-Js-gI3" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="Jka-0J-yMR"/>
+                            <constraint firstItem="GuV-Js-gI3" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="MC5-f4-PAG"/>
+                            <constraint firstItem="DdV-dP-avj" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="uWI-iO-zzJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SplashIcon" width="285" height="285"/>
+    </resources>
+</document>

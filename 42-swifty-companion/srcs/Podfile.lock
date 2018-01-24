@@ -1,0 +1,19 @@
+PODS:
+  - Alamofire (4.0.1)
+  - AlamofireImage (3.1.0):
+    - Alamofire (~> 4.0)
+  - p2.OAuth2 (3.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - AlamofireImage (~> 3.1)
+  - p2.OAuth2 (~> 3.0)
+
+SPEC CHECKSUMS:
+  Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
+  AlamofireImage: bb8c8351c51cb1633bb6be69b6dbbaff37ce65b7
+  p2.OAuth2: a8f96ecad6a46189b9b193691fea401139e43491
+
+PODFILE CHECKSUM: 77c4b1b0eefa0a5c426712536e257e75ff15e047
+
+COCOAPODS: 1.4.0
