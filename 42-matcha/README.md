@@ -1,6 +1,5 @@
 # 42-matcha
 
-<img src="https://raw.githubusercontent.com/abanvill/42-Projects-Samples/master/42-matcha/screenshots/Matcha-Register.png" width="20%">
 <img src="https://raw.githubusercontent.com/abanvill/42-Projects-Samples/master/42-matcha/screenshots/Matcha-Suggestions.png" width="20%">
 <img src="https://raw.githubusercontent.com/abanvill/42-Projects-Samples/master/42-matcha/screenshots/Matcha-Profile-Edition.png" width="20%">
 
