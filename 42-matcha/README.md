@@ -1,8 +1,12 @@
 # 42-matcha
 
+<img src="https://raw.githubusercontent.com/abanvill/42-Projects-Samples/master/42-matcha/screenshots/Matcha-Register.png" width="30%">
+<img src="https://raw.githubusercontent.com/abanvill/42-Projects-Samples/master/42-matcha/screenshots/Matcha-Suggestions.png" width="30%">
+<img src="https://raw.githubusercontent.com/abanvill/42-Projects-Samples/master/42-matcha/screenshots/Matcha-Profile-Edition.png" width="30%">
+
 ## Description
 
-The purpose of this project is to realize a dating site who will be an introduction of an evolved tool to realize a web application: the micro-framework. 
+The second project introduces you to a more advanced tool to implement your web applications: the micro-framework. We invite you to create, in the language of your choice, a dating site. Interactions between users will be the core of the project!.
 
 ## Objectives
 
@@ -39,5 +43,3 @@ brew install mongodb
 npm install -g nodemon webpack morgan yarn
 
 ```
-
-

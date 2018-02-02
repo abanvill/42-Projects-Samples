@@ -1,8 +1,8 @@
 # 42-matcha
 
-<img src="https://raw.githubusercontent.com/abanvill/42-Projects-Samples/master/42-swifty-companion/screenshots/Splash.png" width="30%">.
-<img src="https://raw.githubusercontent.com/abanvill/42-Projects-Samples/master/42-swifty-companion/screenshots/Home.png" width="30%">.
-<img src="https://raw.githubusercontent.com/abanvill/42-Projects-Samples/master/42-swifty-companion/screenshots/Profile.png" width="30%">.
+<img src="https://raw.githubusercontent.com/abanvill/42-Projects-Samples/master/42-swifty-companion/screenshots/Splash.png" width="30%">
+<img src="https://raw.githubusercontent.com/abanvill/42-Projects-Samples/master/42-swifty-companion/screenshots/Home.png" width="30%">
+<img src="https://raw.githubusercontent.com/abanvill/42-Projects-Samples/master/42-swifty-companion/screenshots/Profile.png" width="30%">
 
 ## Description
 
